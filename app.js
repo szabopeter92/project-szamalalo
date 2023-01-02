@@ -4,6 +4,9 @@ let count = 0;
 //Gombok és egyéb elemek eltárolása változóba
 const value = document.getElementById("value");
 const btns = document.querySelectorAll(".btn");
+//const decrease = document.getelementByI("decrease");
+//const increase = document.getelementByI("increase");
+//const reset = document.getelementByI("reset");
 
 //Ciklusal végiglépkedek az eltárolt .btn classú gombokon
 btns.forEach((btn) => {
